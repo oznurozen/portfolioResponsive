@@ -1,0 +1,247 @@
+<!--
+Theme Name:     FabTheme
+Version:        1.0
+Description:    Presentation Page
+-->
+<!DOCTYPE html>
+<html lang="tr">
+	<!-- HEAD -->
+	<head>
+		<!-- TITLE -->
+		<title>Özen Yazılım-Buton Fading</title>
+		<meta charset="utf-8">
+		<meta name="keywords" content="You, can, add, all, the, necessary, keywords, related, to, your, website, here">
+		<meta name="description" content="You can write about your website description here">
+		<meta name="author" content="hpthemes23">
+		<meta name="viewport" content="width=content-width, initial-scale=1">
+		<!-- CSS -->
+		<!-- FAVICON -->
+		<link href="website/images/oznurozen.jpg" rel="icon">
+		<!-- GOOGLE FONT CSS -->
+		<link href="https://fonts.googleapis.com/css?family=Black+Han+Sans&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Varela+Round&display=swap" rel="stylesheet">
+		<!-- FONT AWESOME CSS -->
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css" rel="stylesheet">
+		<!-- BOOTSTRAP CSS -->
+		<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+		<!-- OWL CAROUSEL CSS -->
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" rel="stylesheet">
+		<!-- ANIMATE CSS --> 
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css" rel="stylesheet">
+		
+        <!-- JQUERY JS -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<!-- END OF CSS -->
+       
+        <style type="text/css">   
+            .buton{
+                text-decoration: none;
+                background-color: #e05606;
+                color: white;
+                height: 80px;
+                border-radius: 5% 5% 50% 50%; 
+                outline: 0;
+                display: inline-block;
+                padding: 10px 30px;
+                border-top:0px solid #e03606;
+                border-left:2px solid #e03606;
+                border-right:2px solid  #e03606;
+                border-bottom:10px solid #e04606;
+            }
+            .buton:hover{
+                background-color: #e06806;
+                text-decoration: none;
+        
+            }
+            .buton:active{
+                border-top:2px solid rgb(61, 0, 0); 
+                border-left:0px solid #e03606;
+                border-right:0px solid  #e03606;
+                border-bottom:5px solid #e04606;
+            }
+            #takipet{
+                    margin: 10px;
+                    text-align: left;
+                }
+                h1{
+                    font-family: Arial, Helvetica, sans-serif;
+                    color: rgb(255, 255, 255);
+                }
+            </style>
+		<!-- MAIN STYLESHEET CSS -->
+		<link href="website/css/style.css" rel="stylesheet">
+	</head>
+	<!-- END OF HEAD -->
+	<body id="fabtheme-body" style="background-color: #1F5673;">
+	<!-- NAVIGATION BAR -->
+	<nav id="fabtheme-navbar" class="navbar navbar-expand-lg navbar-expand-xl navbar-dark fixed-top">
+		<a class="navbar-brand" href="ornekcalismalar.html">
+			<!-- WEBSITE LOGO -->
+			ÖZEN YAZILIM
+		</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#expands" aria-controls="expands" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="expands">
+			<ul class="navbar-nav text-center ml-auto">
+				<li class="nav-item">
+					<a class="nav-link fabtheme-nav-link" href="index.html#home">Anasayfa</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link fabtheme-nav-link" href="index.html#about">Hakkında</a>
+				</li>
+				
+				<li class="nav-item">
+					<a class="nav-link fabtheme-nav-link" href="index.html#ornekcalisma">Örnek Çalışmalar</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link fabtheme-nav-link" href="index.html#webtasarim">Web Tasarım</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link fabtheme-nav-link" href="index.html#contact">İletişim</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+	<!-- END OF NAVIGATION BAR -->
+	<br><br><br><br>
+	<!--BUTON FADİNG-->
+    <h1 style="text-align: center;">3 BOYUTLU BUTON VE FADİNG METHOD</h1>
+    <br><br>
+    <div style="text-align: center;">
+        <a href="#" type="button" class="buton"><span>KODLAR DÜNYASI</span></a>
+        <div id="takipet">
+            <h1 style="text-align: center;">TAKİP ET <img src="website/images/ornekcalismalar/likeicons.ico"></h1>
+        </div>
+    </div>
+    <br><br><br><br>
+    <h1 style="margin-left: 5%;">HTML KOD ÇIKTISI</h1>
+    <pre style="margin-left:5%;font-family: Andale Mono, Lucida Console, Monaco, fixed, monospace; color: #fff; background-color: #1e8f9e;font-size: 12px;border: 1px dashed #999999;line-height: 14px; overflow: auto; width: 80%;height: 200px;"><code>&lt;!DOCTYPE html&gt;
+        &lt;html lang=&quot;en&quot;&gt;
+        &lt;head&gt;
+            &lt;script src=&quot;jquery.min.js&quot;&gt;&lt;/script&gt;
+            &lt;style type=&quot;text/css&quot;&gt; 
+            body{
+                background-color: #330065 ;
+            }   
+            .buton{
+                text-decoration: none;
+                background-color: #e05606;
+                color: white;
+                height: 20px;
+                border-radius: 5% 5% 50% 50%; 
+                outline: 0;
+                display: inline-block;
+                padding: 10px 30px;
+                border-top:0px solid #e03606;
+                border-left:2px solid #e03606;
+                border-right:2px solid  #e03606;
+                border-bottom:10px solid #e04606;
+            }
+            .buton:hover{
+                background-color: #e06806;
+        
+            }
+            .buton:active{
+                border-top:2px solid rgb(61, 0, 0); 
+                border-left:0px solid #e03606;
+                border-right:0px solid  #e03606;
+                border-bottom:5px solid #e04606;
+            }
+            #takipet{
+                    margin: 10px;
+                    text-align: left;
+                }
+                h1{
+                    font-family: Arial, Helvetica, sans-serif;
+                    color: rgb(255, 255, 255);
+                }
+            &lt;/style&gt;
+        &lt;/head&gt;
+        &lt;body style=&quot;margin: 300px 600px 300px 600px;&quot;&gt;
+        
+            &lt;a href=&quot;#&quot; type=&quot;button&quot; class=&quot;buton&quot;&gt;&lt;span&gt;KODLAR ALEM&#304;&lt;/span&gt;&lt;/a&gt;
+            &lt;div id=&quot;takipet&quot;&gt;
+                &lt;h1&gt;TAK&#304;P ET &lt;img src=&quot;likeicons.ico&quot;&gt;&lt;/h1&gt;
+            &lt;/div&gt;
+        
+            &lt;script type=&quot;text/javascript&quot;&gt;
+                $(&quot;.buton&quot;).click(function(){
+                    if($(&quot;#takipet&quot;).css(&quot;display&quot;)==&quot;none&quot;){
+                        $(&quot;#takipet&quot;).fadeIn();
+                    }
+                    else{
+                        $(&quot;#takipet&quot;).fadeOut();
+                    }
+                });
+                &lt;/script&gt;
+        &lt;/body&gt;
+        &lt;/html&gt;
+        </code></pre>
+    <script type="text/javascript">
+        $(".buton").click(function(){
+            if($("#takipet").css("display")=="none"){
+                $("#takipet").fadeIn();
+            }
+            else{
+                $("#takipet").fadeOut();
+            }
+        });
+        </script>
+    
+    <!--BİTİŞ BUTON FADİNG-->
+	<!-- FOOTER -->
+	<section id="fabtheme-footer">
+		<div class="container-fluid h-100 p-3 p-sm-4 p-md-4 p-lg-5 p-xl-5">
+			<div class="row h-100 align-items-center">
+				<div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 text-center">
+					<p>
+						<a href="index.html#home" class="fabtheme-link-3">Anasayfa</a>
+					</p>
+					<p>
+						<a href="index.html#about" class="fabtheme-link-3">Hakkında</a>
+					</p>
+				</div>
+				<div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 text-center">
+					<p>
+						<a href="index.html#ornekcalisma" class="fabtheme-link-3">Örnek Çalışmalar</a>
+					</p>
+					<p>
+						<a href="index.html#webtasarim" class="fabtheme-link-3">Web Tasarım</a>
+					</p>
+					<p>
+						<a href="index.html#contact" class="fabtheme-link-3">İletişim</a>
+					</p>
+				</div>
+				<div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 text-center">
+					<p>
+						<a href="javascript:void(0);" class="fabtheme-link-3">Terms of Services</a>
+					</p>
+					<p>
+						<a href="javascript:void(0);" class="fabtheme-link-3">Privacy Policy</a>
+					</p>
+					<p>
+						<a href="javascript:void(0);" class="fabtheme-link-3">Site Map</a>
+					</p>
+					    <a href="https://www.instagram.com/oznur_ozenn" class="fabtheme-link-3"><i class="fab fa-instagram fa-lg mr-2"></i></a>
+						<a href="https://www.linkedin.com/in/öznur-özen-74b25b205" class="fabtheme-link-3"><i class="fab fa-linkedin fa-lg mr-2"></i></a>
+						<a href="https://tr.pinterest.com/oznurozen67/_saved/" class="fabtheme-link-3"><i class="fab fa-pinterest fa-lg mr-2"></i></a>
+						<a href="https://www.youtube.com/channel/UCqpH3yvnMu7YgazXQZH6tXg" class="fabtheme-link-3"><i class="fab fa-youtube fa-lg mr-2"></i></a>
+						<a href="https://twitter.com/oznur_ozenn" class="fabtheme-link-3"><i class="fab fa-twitter fa-lg mr-2"></i></a>
+				</div>
+				<div class="col-12 text-center pt-3 pt-sm-4 pt-md-4 pt-lg-5 pt-xl-5">
+					<h6>ÖZEN YAZILIM © 2021.</h6>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- END OF FOOTER -->
+	<!-- SCROLL TOP -->
+	<div class="fabtheme-scrolltop">
+		<div class="fabtheme-scroll">
+			<i class="fas fa-angle-up"></i>
+		</div>
+	</div>
+
+    </body>
+</html>
